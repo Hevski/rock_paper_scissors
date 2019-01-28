@@ -6,14 +6,22 @@ h1 {
 
 body {
   background-color: #90C3D4;
-  background-image: url(images/rock-paper-scissors.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 400px 400px;
 }
 
 .image {
+  background-image: url(images/rock-paper-scissors.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+}
 
+.image_result {
+  background-image: url(images/rock-paper-scissors.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+  width: auto\9;
 }
 
 p {
