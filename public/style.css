@@ -1,20 +1,31 @@
 h1 {
   font-family: sans-serif;
+  color: black;
   text-align: center;
 }
 
 body {
-  background-color: #65AFC7
+  background-color: #90C3D4;
+  background-image: url(images/rock-paper-scissors.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px 400px;
+}
+
+.image {
+
 }
 
 p {
   font-family: arial;
+  color: black;
   font-weight: bold;
   text-align: center;
 }
 
 ul {
   font-family: arial;
+  color: black;
   font-weight: bold;
   text-align: center;
   list-style-position: inside;
@@ -22,4 +33,9 @@ ul {
 
 .link {
   font-size: 40px;
+}
+
+img.size {
+  height: 40px;
+  width: 40px;
 }

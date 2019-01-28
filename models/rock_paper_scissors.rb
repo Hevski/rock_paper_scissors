@@ -7,23 +7,23 @@ class RockPaperScissors
 
   def outcome()
     if @hand1 == 'rock' && @hand2 == 'rock'
-      'Draw'
+      "It's a tie!"
     elsif @hand1 == 'paper' && @hand2 == 'paper'
-      'Draw'
+      "It's a tie!"
     elsif @hand1 == 'scissors' && @hand2 == 'scissors'
-      'Draw'
+      "It's a tie!"
     elsif @hand1 == 'rock' && @hand2 == 'scissors'
-      'Rock wins!'
+      'Player 1 wins by playing rock!'
     elsif @hand1 == 'scissors' && @hand2 == 'rock'
-      'Rock wins!'
+      'Player 2 wins by playing rock!'
     elsif @hand1 == 'rock' && @hand2 == 'paper'
-      'Paper wins!'
+      'Player 2 wins by playing paper!'
     elsif @hand2 == 'rock' && @hand1 == 'paper'
-      'Paper wins!'
+      'Player 1 wins by playing paper!'
     elsif @hand1 == 'paper' && @hand2 == 'scissors'
-      'Scissors wins!'
+      'Player 2 wins by playing scissors!'
     elsif @hand1 == 'scissors' && @hand2 == 'paper'
-      'Scissors wins!'
+      'Player 1 wins by playing scissors!'
     end
   end
 end
